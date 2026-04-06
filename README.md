@@ -11,7 +11,7 @@ Shell: Bash
 Clone the repository and run `install.sh`.
 ```
 git clone https://github.com/esperime/dotfiles-hyprland.git
-cd hyprbasic
+cd dotfiles-hyprland
 ./install.sh
 ```
 
