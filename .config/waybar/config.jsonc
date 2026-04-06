@@ -2,8 +2,8 @@
 	"margin": 0,
 	"height": 0,
 	"layer": "top",
-    "modules-left": ["hyprland/workspaces"],
-    "modules-center": ["clock"],
+    "modules-left": ["clock"],
+    "modules-center": ["hyprland/workspaces"],
     "modules-right": ["network","wireplumber","backlight","battery"],
     "battery": {
         "format": "{capacity}% {icon}",
@@ -24,7 +24,7 @@
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-wifi": "Connected ({signalStrength}%) ",
         "format-ethernet": "{ipaddr}/{cidr} ",
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
@@ -44,11 +44,11 @@
 		"format": "{icon}",
   		"on-click": "activate",
   		"format-icons": {
-    		"1": "1",
-    		"2": "2",
-    		"3": "3",
-    		"4": "4",
-    		"5": "5",
+    		"1": "いち",
+    		"2": "に",
+    		"3": "さん",
+    		"4": "よん",
+    		"5": "ご"
   			},
            "persistent-workspaces": {
                  "*": 5, // 5 workspaces by default on every monitor
