@@ -1,0 +1,4 @@
+default-timeout=5000
+anchor=top-right
+
+include=~/.config/mako/mako-colors

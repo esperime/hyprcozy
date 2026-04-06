@@ -1,0 +1,59 @@
+@import "colors.css";
+
+* {
+	all: unset;
+    border: none;
+    border-radius: 0;
+    font: 13px "Adwaita Sans";
+}
+
+#window {
+	padding: 0px 8px;
+	margin: 0px;
+}
+window#waybar { 
+	border-radius: 5px;
+	color: @on_background;
+	padding: 0px 30px;
+}
+
+#workspaces {
+	background-color: @secondary_container;
+	border-radius: 5px;
+	margin: 6px;
+}
+#workspaces button {
+	min-width: 20px;
+    padding: 0px 2px;
+    margin: 4px 3px;
+    border-radius: 6px;
+    border: 0px;
+    color: @on_primary_container;
+    background-color: @secondary_container;
+}
+
+#workspaces button.active {
+    color: @primary;
+    background: @primary_container;
+}
+
+tooltip {
+	background: @background;
+	color: @on_background;
+}
+
+#clock, #wireplumber, #battery {
+	background: @primary_container;
+	padding: 5px;
+	border-radius: 5px;
+	color: @primary;
+	margin: 6px;
+}
+
+#network, #backlight {
+	background: @secondary_container;
+	color: @secondary;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 6px;
+}

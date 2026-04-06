@@ -1,0 +1,8 @@
+#[Backend]
+backend = "hyprland"
+start_hyprsunset = true
+transition_mode = "static"
+
+#[Static config]
+static_temp = 2500       # Constant color temperature (1000-20000) Kelvin
+static_gamma = 100       # Constant gamma percentage (10-100%)
