@@ -1,4 +1,4 @@
-<h1 align="center">Hyprcozy</h1>
+<h1 align="center">【 Hyprcozy 】</h1>
 
 <img src="images/screenshot/comfy.png" alt="image">
 
