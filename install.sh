@@ -20,7 +20,7 @@ if [ "$proceed" = 'y' ]; then
 	fi
 
 	# Install necessary packages
-	sudo pacman -S waybar fuzzel mako thunar adwaita-fonts thunar-archive-plugin alacritty hyprshot firefox
+	sudo pacman -S fastfetch waybar fuzzel mako thunar adwaita-fonts thunar-archive-plugin alacritty hyprshot firefox
 	paru -S matugen-bin sunsetr-bin python-pywalfox awww-bin
 
 	# Transfer configs
