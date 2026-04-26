@@ -1,13 +1,13 @@
 <img src="images/screenshot/comfy.png" alt="image">
 
-# Installation
+# 📥 Installation
 ```
-git clone https://github.com/esperime/dotfiles-hyprland.git
+git clone https://github.com/ki-bun/dotfiles-hyprland.git
 cd dotfiles-hyprland
 ./install.sh
 ```
 
-# Usage
+# 🛠️ Usage
 `SUPER + RETURN` - Launch Terminal emulator
 
 `SUPER + D` - Launch Fuzzel
